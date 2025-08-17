@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IBMSUBMISSION.MainPage">
+    <StackLayout BackgroundColor="Black" Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <Border Stroke="LightCyan"
+                 StrokeThickness="1"
+                 Margin="1"
+                 HeightRequest="55"
+                 x:Name="APLIKASIUTAMA"
+                 VerticalOptions="Start"
+                 HorizontalOptions="FillAndExpand">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20,5,5,20" />
+            </Border.StrokeShape>
+            <StackLayout Spacing="1" Margin="1" BackgroundColor="White" Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Editor x:Name="INPUTMESIN" Placeholder="Enter Your Need" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" WidthRequest="300" Margin="0" AutoSize="TextChanges" PlaceholderColor="WhiteSmoke" TextColor="Black" BackgroundColor="White" HeightRequest="50" VerticalTextAlignment="Center" CharacterSpacing="2">
+                </Editor>
+            </StackLayout>
+        </Border>
+        <ScrollView x:Name="TRANSLATORALATBANTUINDEKSATU" IsVisible="False" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalScrollBarVisibility="Default" FlowDirection="MatchParent" Visual="Default">
+            <VerticalStackLayout Spacing="1" Margin="1" BackgroundColor="Black">
+                <Image x:Name="AA" Source="aaa.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="BB" Source="bbb.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="CC" Source="ccc.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="DD" Source="ddd.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="EE" Source="eee.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FF" Source="fff.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="GG" Source="ggg.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="HH" Source="hhh.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="II" Source="iii.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="JJ" Source="jjj.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="KK" Source="kkk.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="LL" Source="lll.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="MM" Source="mmm.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="NN" Source="nnn.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="OO" Source="ooo.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="PP" Source="ppp.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="QQ" Source="qqq.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="RR" Source="rrr.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="SS" Source="sss.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TT" Source="ttt.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="UU" Source="uuu.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="VV" Source="vvv.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="WW" Source="www.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="XX" Source="xxx.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="YY" Source="yyy.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="ZZ" Source="zzz.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <ScrollView x:Name="TRANSLATORALATBANTUINDEKSDUA" IsVisible="False" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalScrollBarVisibility="Default" FlowDirection="MatchParent" Visual="Default">
+            <VerticalStackLayout Spacing="1" Margin="1" x:Name="ALATTRANSLATORINDEKSDUA" BackgroundColor="Black">
+                <Image x:Name="TWOAA" Source="aaa.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOBB" Source="bbb.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOCC" Source="ccc.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWODD" Source="ddd.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOEE" Source="eee.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOFF" Source="fff.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOGG" Source="ggg.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOHH" Source="hhh.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOII" Source="iii.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOJJ" Source="jjj.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOKK" Source="kkk.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOLL" Source="lll.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOMM" Source="mmm.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWONN" Source="nnn.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOOO" Source="ooo.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOPP" Source="ppp.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOQQ" Source="qqq.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWORR" Source="rrr.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOSS" Source="sss.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOTT" Source="ttt.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOUU" Source="uuu.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOVV" Source="vvv.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOWW" Source="www.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOXX" Source="xxx.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOYY" Source="yyy.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="TWOZZ" Source="zzz.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <ScrollView x:Name="TRANSLATORALATBANTUINDEKSTIGA" IsVisible="False" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalScrollBarVisibility="Default" FlowDirection="MatchParent" Visual="Default">
+            <VerticalStackLayout Spacing="1" Margin="1" x:Name="ALATTRANSLATORINDEKSTIGA" BackgroundColor="Black">
+                <Image x:Name="THREEAA" Source="aaa.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEBB" Source="bbb.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREECC" Source="ccc.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEDD" Source="ddd.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEEE" Source="eee.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEFF" Source="fff.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEGG" Source="ggg.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEHH" Source="hhh.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEII" Source="iii.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEJJ" Source="jjj.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEKK" Source="kkk.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREELL" Source="lll.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEMM" Source="mmm.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREENN" Source="nnn.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEOO" Source="ooo.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEPP" Source="ppp.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEQQ" Source="qqq.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREERR" Source="rrr.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREESS" Source="sss.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREETT" Source="ttt.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEUU" Source="uuu.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEVV" Source="vvv.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEWW" Source="www.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEXX" Source="xxx.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEYY" Source="yyy.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="THREEZZ" Source="zzz.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <ScrollView x:Name="TRANSLATORALATBANTUINDEKSEMPAT" IsVisible="False" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalScrollBarVisibility="Default" FlowDirection="MatchParent" Visual="Default">
+            <VerticalStackLayout Spacing="1" Margin="1" x:Name="ALATTRANSLATORINDEKSEMPAT" BackgroundColor="Black">
+                <Image x:Name="FOURAA" Source="aaa.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURBB" Source="bbb.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURCC" Source="ccc.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURDD" Source="ddd.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOUREE" Source="eee.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURFF" Source="fff.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURGG" Source="ggg.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURHH" Source="hhh.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURII" Source="iii.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURJJ" Source="jjj.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURKK" Source="kkk.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURLL" Source="lll.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURMM" Source="mmm.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURNN" Source="nnn.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOUROO" Source="ooo.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURPP" Source="ppp.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURQQ" Source="qqq.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURRR" Source="rrr.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURSS" Source="sss.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURTT" Source="ttt.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURUU" Source="uuu.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURVV" Source="vvv.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURWW" Source="www.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURXX" Source="xxx.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURYY" Source="yyy.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FOURZZ" Source="zzz.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <ScrollView x:Name="TRANSLATORALATBANTUINDEKSLIMA" IsVisible="False" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalScrollBarVisibility="Default" FlowDirection="MatchParent" Visual="Default">
+            <VerticalStackLayout Spacing="1" Margin="1" x:Name="ALATTRANSLATOR" BackgroundColor="Black">
+                <Image x:Name="FIVEAA" Source="aaa.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEBB" Source="bbb.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVECC" Source="ccc.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEDD" Source="ddd.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEEE" Source="eee.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEFF" Source="fff.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEGG" Source="ggg.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEHH" Source="hhh.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEII" Source="iii.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEJJ" Source="jjj.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEKK" Source="kkk.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVELL" Source="lll.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEMM" Source="mmm.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVENN" Source="nnn.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEOO" Source="ooo.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEPP" Source="ppp.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEQQ" Source="qqq.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVERR" Source="rrr.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVESS" Source="sss.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVETT" Source="ttt.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEUU" Source="uuu.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEVV" Source="vvv.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEWW" Source="www.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEXX" Source="xxx.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEYY" Source="yyy.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+                <Image x:Name="FIVEZZ" Source="zzz.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="5" HeightRequest="300" IsVisible="False"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <ScrollView x:Name="DISABILITASKEYBOARDSSS" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalScrollBarVisibility="Default" FlowDirection="MatchParent" Visual="Default">
+            <VerticalStackLayout Spacing="1" Margin="1" x:Name="TRANSKRIPBISINDO" BackgroundColor="Black">
+                <ImageButton x:Name="A" Clicked="A_Clicked" Source="aaa.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="B" Clicked="B_Clicked" Source="bbb.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="C" Clicked="C_Clicked" Source="ccc.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="D" Clicked="D_Clicked" Source="ddd.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="E" Clicked="E_Clicked" Source="eee.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="F" Clicked="F_Clicked" Source="fff.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="G" Clicked="G_Clicked" Source="ggg.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="H" Clicked="H_Clicked" Source="hhh.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="I" Clicked="I_Clicked" Source="iii.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="J" Clicked="J_Clicked" Source="jjj.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="K" Clicked="K_Clicked" Source="kkk.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="L" Clicked="L_Clicked" Source="lll.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="M" Clicked="M_Clicked" Source="mmm.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="N" Clicked="N_Clicked" Source="nnn.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="O" Clicked="O_Clicked" Source="ooo.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="P" Clicked="P_Clicked" Source="ppp.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="Q" Clicked="Q_Clicked" Source="qqq.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="R" Clicked="R_Clicked" Source="rrr.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="S" Clicked="S_Clicked" Source="sss.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="T" Clicked="T_Clicked" Source="ttt.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="U" Clicked="U_Clicked" Source="uuu.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="V" Clicked="V_Clicked" Source="vvv.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="W" Clicked="W_Clicked" Source="www.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="X" Clicked="X_Clicked" Source="xxx.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="Y" Clicked="Y_Clicked" Source="yyy.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+                <ImageButton x:Name="Z" Clicked="Z_Clicked" Source="zzz.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" CornerRadius="1" BorderWidth="5" BorderColor="LightCyan" HeightRequest="300" BackgroundColor="Black"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <HorizontalStackLayout Spacing="1" Margin="1" HeightRequest="55" BackgroundColor="Black" VerticalOptions="End" HorizontalOptions="Center">
+            <ImageButton x:Name="START" Clicked="START_Clicked" HeightRequest="50" WidthRequest="50" VerticalOptions="FillAndExpand" BorderColor="LightCyan" BorderWidth="1" CornerRadius="20" HorizontalOptions="FillAndExpand" Margin="2" Source="dotnet_bot.png"/>
+            <ImageButton x:Name="STOP" Clicked="PAUSE_Clicked" HeightRequest="50" WidthRequest="50" VerticalOptions="FillAndExpand" BorderColor="LightCyan" BorderWidth="1" CornerRadius="20" HorizontalOptions="FillAndExpand" Margin="2" Source="dotnet_bot.png"/>
+            <ImageButton x:Name="RESUME" Clicked="RESUME_Clicked" HeightRequest="50" WidthRequest="50" VerticalOptions="FillAndExpand" BorderColor="LightCyan" BorderWidth="1" CornerRadius="20" HorizontalOptions="FillAndExpand" Margin="2" Source="dotnet_bot.png"/>
+            <ImageButton x:Name="DARURAT" Clicked="DARURAT_Clicked" HeightRequest="50" WidthRequest="50" VerticalOptions="FillAndExpand" BorderColor="LightCyan" BorderWidth="1" CornerRadius="20" HorizontalOptions="FillAndExpand" Margin="2" Source="dotnet_bot.png"/>
+            <ImageButton x:Name="COMPLETIONS" Clicked="completions_Clicked" HeightRequest="50" WidthRequest="50" VerticalOptions="FillAndExpand" BorderColor="LightCyan" BorderWidth="1" CornerRadius="20" HorizontalOptions="FillAndExpand" Margin="2" Source="dotnet_bot.png"/>
+            <ImageButton x:Name="COPILOT" Clicked="COPILOT_Clicked" HeightRequest="50" WidthRequest="50" VerticalOptions="FillAndExpand" BorderColor="LightCyan" BorderWidth="1" CornerRadius="20" HorizontalOptions="FillAndExpand" Margin="2" Source="dotnet_bot.png"/>
+        </HorizontalStackLayout>
+        <ScrollView x:Name="AKSICEPATDARURAT" IsVisible="True" VerticalOptions="End" HorizontalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Always" FlowDirection="MatchParent" Visual="Default">
+            <HorizontalStackLayout Spacing="1" Margin="1" BackgroundColor="Black" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Button x:Name="AKSISATUDARURAT" Clicked="AKSISATUDARURAT_Clicked" Text="Maaf, Saya Mau Beli" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIDUADARURAT" Clicked="AKSIDUADARURAT_Clicked" Text="Maaf, Saya Mau Makan" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSITIGADARURAT" Clicked="AKSITIGADARURAT_Clicked" Text="Maaf, Saya Mau Mandi" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIEMPATDARURAT" Clicked="AKSIEMPATDARURAT_Clicked" Text="Maaf, Saya Mau Bertanya" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSILIMADARURAT" Clicked="AKSILIMADARURAT_Clicked" Text="Maaf, Saya Mau Izin Masuk" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIENAMDARURAT" Clicked="AKSIENAMDARURAT_Clicked" Text="Maaf, Saya Mau Tanya Jalan" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSISATUAKTIFITAS" Clicked="AKSISATUAKTIFITAS_Clicked" Text="Maaf, Saya Mau Beli" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIDUAAKTIFITAS" Clicked="AKSIDUAAKTIFITAS_Clicked" Text="Maaf, Saya Mau Makan" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSITIGAAKTIFITAS" Clicked="AKSITIGAAKTIFITAS_Clicked" Text="Maaf, Saya Mau Mandi" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIEMPATAKTIFITAS" Clicked="AKSIEMPATAKTIFITAS_Clicked" Text="Maaf, Saya Mau Bertanya" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSILIMAAKTIFITAS" Clicked="AKSILIMAAKTIFITAS_Clicked" Text="Maaf, Saya Mau Izin Masuk" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIENAMAKTIFITAS" Clicked="AKSIENAMAKTIFITAS_Clicked" Text="Maaf, Saya Mau Tanya Jalan" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSISATUWORKING" Clicked="AKSISATUWORKING_Clicked" Text="Maaf, Saya Mau Beli" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIDUAWORKING" Clicked="AKSIDUAWORKING_Clicked" Text="Maaf, Saya Mau Makan" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSITIGAWORKING" Clicked="AKSITIGAWORKING_Clicked" Text="Maaf, Saya Mau Mandi" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIEMPATWORKING" Clicked="AKSIEMPATWORKING_Clicked" Text="Maaf, Saya Mau Bertanya" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSILIMAWORKING" Clicked="AKSILIMAWORKING_Clicked" Text="Maaf, Saya Mau Izin Masuk" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIENAMWORKING" Clicked="AKSIENAMWORKING_Clicked" Text="Maaf, Saya Mau Tanya Jalan" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSISATUSEKOLAH" Clicked="AKSISATUSEKOLAH_Clicked" Text="Maaf, Saya Mau Beli" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIDUASEKOLAH" Clicked="AKSIDUASEKOLAH_Clicked" Text="Maaf, Saya Mau Makan" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSITIGASEKOLAH" Clicked="AKSITIGASEKOLAH_Clicked" Text="Maaf, Saya Mau Mandi" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIEMPATSEKOLAH" Clicked="AKSIEMPATSEKOLAH_Clicked" Text="Maaf, Saya Mau Bertanya" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSILIMASEKOLAH" Clicked="AKSILIMASEKOLAH_Clicked" Text="Maaf, Saya Mau Izin Masuk" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+                <Button x:Name="AKSIENAMSEKOLAH" Clicked="AKSIENAMSEKOLAH_Clicked" Text="Maaf, Saya Mau Tanya Jalan" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1" HeightRequest="50" BorderColor="LightCyan" CornerRadius="10"/>
+            </HorizontalStackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
